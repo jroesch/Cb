@@ -7,6 +7,8 @@ module Cb.CbSyn where
            | CbExp
            deriving (Show, Eq) -}
 
+data CbModule = CbModule [CbDecl] deriving (Show, Eq)
+
 data CbBind = FunBind CbId CbExpr 
             -- | PatBind
             deriving (Show, Eq)
