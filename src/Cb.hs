@@ -1,3 +1,3 @@
 module Cb where
 
-import Cb.Parser
+import Cb.Parser.Parser

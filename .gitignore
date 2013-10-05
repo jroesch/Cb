@@ -3,3 +3,7 @@
 Session.vim
 .netrwhist
 *~
+
+/cabal.sandbox.config
+/.cabal-sandbox/
+/dist/
